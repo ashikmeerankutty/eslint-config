@@ -39,11 +39,11 @@ npx install-peerdeps --dev eslint-config-mrdevops
 ```js
 // Auto format on save
 "editor.formatOnSave": true,
+// turn it off for JS and JSX, we will do this via eslint
 "[javascriptreact]": {
   "editor.defaultFormatter": null,
   "editor.formatOnSave": false
 },
-// turn it off for JS and JSX, we will do this via eslint
 "[javascript]": {
   "editor.defaultFormatter": null,
   "editor.formatOnSave": false
