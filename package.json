@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config",
+  "name": "eslint-config-mrdevops",
   "version": "1.0.0",
   "description": "Eslint and Prettier Setup",
   "main": "index.js",
